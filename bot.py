@@ -14,9 +14,6 @@ import numpy as np
 from bs4 import BeautifulSoup
 import aiohttp
 
-TOKEN = "7418707631:AAGT9UGwC5lofsIMCj-ba8W4zjtoOr_ZdGk"  # Replace with your token
-OLLAMA_URL = "http://localhost:11434/api/generate"
-
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
